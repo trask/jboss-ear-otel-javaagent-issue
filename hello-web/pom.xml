@@ -16,7 +16,7 @@
       <dependency>
          <groupId>org.springframework</groupId>
          <artifactId>spring-webmvc</artifactId>
-         <!-- provided at ear level -->
+         <!-- provided at ear level, this is what causes the issue to occur -->
          <scope>provided</scope>
       </dependency>
    </dependencies>
